@@ -1,0 +1,60 @@
+const project_name = `Open-Source Hardware in the Era of Robot Learning`
+const proj_small_caps = `<span class="small-caps"></span>`
+const conference_details = ['CoRL 2025', 'https://www.corl.org/', 'Seoul, Korea', 'assets/images/corl_logo_2025.png', 'https://www.beta-cae.com/events/c9pdf/science%20congress%20center-floor-plans.pdf']
+const workshop_date = `9:30 - 16:30 KST, Septembar 27, 2025`
+
+const talk_speaker_details = {
+  'toa': ['Tetusya Ogata', './assets/images/talks/ogata.jpg', 'Professor', 'Waseda University, Japan', 'https://ogata-lab.jp/ja/member_ja/ogata_ja.html', 
+    'Dual-Arm Robot', 
+    ''],
+  'ksw': ['Kenneth Shaw', './assets/images/talks/kenneth.jpg', 'PhD student', 'Carnegie Mellon University, USA', 'https://kennyshaw.net/', 
+    'LEAP Hand', 
+		''],
+  'klu': ['C.Karen Liu', './assets/images/talks/karen.jpg', 'Professor', 'Stanford University, USA', 'https://profiles.stanford.edu/c-karen-liu', 
+    'ToddlerBot',
+    ''],
+  'bcn': ['Boyuan Chen', './assets/images/talks/boyuan.jpg', 'PhD student', 'Duke University, USA', 'https://boyuan.space/', 
+    'Duke Humanoid',
+		''],
+  'qlo': ['Qiayuan Liao', './assets/images/talks/qiayuan.jpg', 'PhD student', 'UC Berkley, USA', 'https://scholar.google.com/citations?user=QGpxkvkAAAAJ&hl=en', 
+    'Barkeley Humanoid', 
+    ''],
+  'tbd': ['TBD', '', '', '', '', 
+    '', 
+    ''],
+
+}
+
+const organizers_details = [
+  ['Kento Kawaharazuka', 'assets/images/organizers/kento.png', 'Lecturer', 'The University of Tokyo, Japan', 'https://haraduka.github.io'],
+  ['Stéphane Caron', 'assets/images/organizers/stephane.jpg', 'Research scientist', 'Inria, Paris, France', 'https://scaron.info/'],
+  ['Keita Yoneda', 'assets/images/organizers/keita.jpeg', 'PhD Student', 'The University of Tokyo, Japan', ''],
+]
+
+const accepted_presentations = [
+]
+
+const org_affiliation_logos = [
+]
+
+// event-alias, time slot, event name, person alias from talk_speaker_details, ppt mode
+// last two are for inv-talk event-alias entries
+const schedule = [
+  ['welcome', '9:30 - 9:40', 'Welcome Talk'],
+  ['inv-talk', '9:40 - 10:00', 'Invited Talk', 'toa', 'in-person'],
+  ['inv-talk', '10:00 - 10:20', 'Invited Talk', 'ksw', 'in-person'],
+  ['inv-talk', '10:20 - 10:40', 'Invited Talk', 'tbd', 'in-person'],
+  ['poster & coffee break', '10:40 - 11:10', 'Poster/Demo Session (1) and Coffee Break'],
+  ['inv-talk', '11:10 - 11:30', 'Invited Talk', 'klu', 'in-person'],
+  ['inv-talk', '11:30 - 11:50', 'Invited Talk', 'bcn', 'in-person'],
+  ['org-talk', '11:50 - 12:10', 'Organizer Talk', 'kka', 'in-person'],
+  ['lunch', '12:10 - 13:30', 'Lunch Break', 'tbd', ''],
+  ['inv-talk', '13:30 - 13:50', 'Invited Talk', 'qlo', 'in-person'],
+  ['inv-talk', '13:50 - 14:10', 'Invited Talk', 'tbd', 'in-person'],
+  ['org-talk', '14:10 - 14:30', 'Organizer Talk', 'scn', 'in-person'],
+  ['poster & coffee break', '14:30 - 15:00', 'Poster/Demo Session (2) and Coffee Break'],
+  ['inv-talk', '15:00 - 15:20', 'Invited Talk', 'tbd', 'in-person'],
+  ['inv-talk', '15:20 - 15:40', 'Invited Talk', 'tbd', 'in-person'],
+  ['disc', '15:40 - 16:20', 'Panel Discussions'],
+  ['award', '16:20 - 16:30', 'Award & Closing Remarks'],
+]
