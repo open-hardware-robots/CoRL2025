@@ -220,7 +220,7 @@ $(document).ready(function () {
   });
 
   // Last updated
-  var apiUrl = "https://api.github.com/repos/roboassembly/roboassembly.github.io/commits?sha=master&per_page=1";
+  var apiUrl = "https://api.github.com/repos/open-hardware-robots/CoRL2025/commits/main";
   $.getJSON(apiUrl, function (data) {
     var commitDate = new Date(data[0].commit.committer.date);
     var formattedDate = commitDate.toDateString();
