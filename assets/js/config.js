@@ -7,7 +7,7 @@ const talk_speaker_details = {
   'klu': ['C.Karen Liu', './assets/images/talks/karen.jpg', 'Professor', 'Stanford University, USA', 'https://profiles.stanford.edu/c-karen-liu', 
     'Open-Source Humanoid Platform: ToddlerBot',
     ''],
-  'gpt': ['Grégoire Passault', './assets/images/talks/gregoire.jpg', 'Associate Professor', 'LaBRL, France', 'https://fr.linkedin.com/in/gr%C3%A9goire-passault-b14024140', 
+  'gpt': ['Grégoire Passault', './assets/images/talks/gregoire.jpg', 'Associate Professor', 'University of Bordeaux, France', 'https://fr.linkedin.com/in/gr%C3%A9goire-passault-b14024140', 
     'Open-Source Humanoid: SigmaBan', 
     ''],
   'toa': ['Tetusya Ogata', './assets/images/talks/ogata.jpg', 'Professor', 'Waseda University, Japan', 'https://ogata-lab.jp/ja/member_ja/ogata_ja.html', 
@@ -44,9 +44,9 @@ const organizers_talk_details = {
 }
 
 const organizers_details = [
-  ['Kento Kawaharazuka', 'assets/images/organizers/kento.png', 'Lecturer', 'The University of Tokyo, Japan', 'https://haraduka.github.io'],
-  ['Stéphane Caron', 'assets/images/organizers/stephane.jpg', 'Research scientist', 'Inria, Paris, France', 'https://scaron.info/'],
-  ['Keita Yoneda', 'assets/images/organizers/keita.jpeg', 'PhD Student', 'The University of Tokyo, Japan', ''],
+  ['Kento Kawaharazuka', 'assets/images/organizers/kawaharazuka.png', 'Lecturer', 'The University of Tokyo, Japan', 'https://haraduka.github.io'],
+  ['Stéphane Caron', 'assets/images/organizers/stephane.jpg', 'Research scientist', 'Inria, France', 'https://scaron.info/'],
+  ['Keita Yoneda', 'assets/images/organizers/yoneda.jpg', 'PhD Student', 'The University of Tokyo, Japan', ''],
 ]
 
 const accepted_presentations = [
@@ -62,15 +62,15 @@ const schedule = [
   ['inv-talk', '9:40 - 10:00', 'Invited Talk', 'klu', 'in-person'],
   ['inv-talk', '10:00 - 10:20', 'Invited Talk', 'gpt', 'in-person'],
   ['inv-talk', '10:20 - 10:40', 'Invited Talk', 'toa', 'in-person'],
-  ['poster & coffee break', '10:40 - 11:10', 'Poster/Demo Session (1) and Coffee Break'],
+  ['coffee-break', '10:40 - 11:10', 'Poster/Demo Session (1) and Coffee Break'],
   ['inv-talk', '11:10 - 11:30', 'Invited Talk', 'bcn', 'in-person'],
   ['inv-talk', '11:30 - 11:50', 'Invited Talk', 'arn', 'in-person'],
   ['org-talk', '11:50 - 12:10', 'Organizer Talk', 'kka', 'in-person'],
-  ['lunch', '12:10 - 13:30', 'Lunch Break', '', ''],
+  ['lunch-break', '12:10 - 13:30', 'Lunch Break', '', ''],
   ['inv-talk', '13:30 - 13:50', 'Invited Talk', 'yna', 'in-person'],
   ['inv-talk', '13:50 - 14:10', 'Invited Talk', 'ksw', 'in-person'],
   ['org-talk', '14:10 - 14:30', 'Organizer Talk', 'scn', 'in-person'],
-  ['poster & coffee break', '14:30 - 15:00', 'Poster/Demo Session (2) and Coffee Break'],
+  ['coffee-break', '14:30 - 15:00', 'Poster/Demo Session (2) and Coffee Break'],
   ['inv-talk', '15:00 - 15:20', 'Invited Talk', 'qlo', 'in-person'],
   ['disc', '15:40 - 16:20', 'Panel Discussions'],
   ['award', '16:20 - 16:30', 'Award & Closing Remarks'],

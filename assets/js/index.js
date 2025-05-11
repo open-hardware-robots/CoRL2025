@@ -141,7 +141,8 @@ $(document).ready(function () {
     let abstract = ``
     let talk_mode = ``
     let align_left = ``
-
+		
+		// speaker talk
     if (schedule_entry[0] == 'inv-talk'){
       speaker_details = talk_speaker_details[schedule_entry[3]]
       talk_mode = schedule_entry[4] == 'online' ? `<span class='has-text-danger bold'>[Online]</span>` : ``
@@ -155,14 +156,32 @@ $(document).ready(function () {
       }
       hidden_row_html = `<tr class="hidden-content ${align_left}"><td colspan="2">${title}${abstract}</td></tr>`
     }
+		// organizers_talk
+    if (schedule_entry[0] == 'org-talk'){
+      speaker_details = organizers_talk_details[schedule_entry[3]]
+      talk_mode = schedule_entry[4] == 'online' ? `<span class='has-text-danger bold'>[Online]</span>` : ``
+      align_left = (speaker_details[5] != `` && speaker_details[6] != ``) ? "align-left" : ""
+      title = speaker_details[5] != `` ? `<h5 class="center has-text-danger bold">${speaker_details[5]}</h5>` : ``
+      abstract = speaker_details[6] != `` ? `<p><span class="bold">Abstract.</span> ${speaker_details[6]}</p>` : `<p class="center">Details coming soon. Thanks for your patience.</p>`
+        title_abstract_html = ` ${talk_mode}: <a href="${speaker_details[4]}" target="_blank">${speaker_details[0]}</a>, ${speaker_details[3]} (<span class='toggle-btn has-text-danger'>Details</span>)`
+      	hidden_row_html = `<tr class="hidden-content ${align_left}"><td colspan="2">${title}${abstract}</td></tr>`
+    }
+		// lunch-break & coffee-break
     if(['lunch-break', 'coffee-break'].includes(schedule_entry[0])){
       if (schedule_entry[0] == 'lunch-break'){
         icon_html = `<i class="fas fa-utensils icon" style="position: relative;top: 5px; margin-left:5px"></i>`
+    		effect = `notification is-danger is-light`
       }
       if (schedule_entry[0] == 'coffee-break'){
         icon_html = `<i class="fas fa-coffee icon" style="position: relative;top: 5px; margin-left:5px"></i>`
+    		effect = `notification is-warning is-light`
       }
-    effect = `notification is-warning is-light`
+    }
+    if(['welcome', 'award'].includes(schedule_entry[0])){
+			effect = `notification is-gray is-light`
+    }
+    if(['disc'].includes(schedule_entry[0])){
+			effect = `notification is-success is-light`
     }
     schedule_html += `
       <tr class="${effect}">
