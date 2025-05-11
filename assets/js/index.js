@@ -220,7 +220,7 @@ $(document).ready(function () {
   });
 
   // Last updated
-  var apiUrl = "https://api.github.com/repos/open-hardware-robots/CoRL2025/commits/main";
+  var apiUrl = "https://api.github.com/repos/open-hardware-robots/CoRL2025/commits?sha=main&per_page=1";
   $.getJSON(apiUrl, function (data) {
     var commitDate = new Date(data[0].commit.committer.date);
     var formattedDate = commitDate.toDateString();
