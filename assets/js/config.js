@@ -72,6 +72,6 @@ const schedule = [
   ['org-talk', '14:10 - 14:30', 'Organizer Talk', 'scn', 'in-person'],
   ['coffee-break', '14:30 - 15:00', 'Poster/Demo Session (2) and Coffee Break'],
   ['inv-talk', '15:00 - 15:20', 'Invited Talk', 'qlo', 'in-person'],
-  ['disc', '15:40 - 16:20', 'Panel Discussions'],
+  ['disc', '15:20 - 16:20', 'Panel Discussions'],
   ['award', '16:20 - 16:30', 'Award & Closing Remarks'],
 ]
