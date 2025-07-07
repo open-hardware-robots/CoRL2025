@@ -183,6 +183,9 @@ $(document).ready(function () {
     if(['disc'].includes(schedule_entry[0])){
 			effect = `notification is-success is-light`
     }
+    if(['lightning-talk'].includes(schedule_entry[0])){
+			effect = `notification is-info is-light`
+    }
     schedule_html += `
       <tr class="${effect}">
         <td>${schedule_entry[1]}</td><td>${schedule_entry[2]}${icon_html} ${title_abstract_html}</td>
