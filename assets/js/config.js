@@ -13,7 +13,7 @@ const talk_speaker_details = {
   'toa': ['Tetusya Ogata', './assets/images/talks/ogata.jpg', 'Professor', 'Waseda University, Japan', 'https://ogata-lab.jp/member/ogata.html', 
     'Open-Source Dual-Arm Robot', 
     ''],
-  'bcn': ['Boyuan Chen', './assets/images/talks/boyuan.jpg', 'Assistant Professor', 'Duke University, USA', 'https://boyuan.space/', 
+  'bcn': ['Boyuan Chen', './assets/images/talks/boyuan.jpg', 'Assistant Professor', 'Duke University, USA', 'https://mems.duke.edu/people/boyuan-chen/', 
     'Open-Source Humanoid: Duke Humanoid',
 		''],
   'kka': ['Kento Kawaharazuka', './assets/images/organizers/kawaharazuka.png', 'Lecturer', 'The University of Tokyo, Japan', 'https://haraduka.github.io', 
