@@ -56,7 +56,7 @@ const organizers_talk_details = {
 const organizers_details = [
   ['Kento Kawaharazuka', 'assets/images/organizers/kawaharazuka.png', 'Lecturer', 'The University of Tokyo, Japan', 'https://haraduka.github.io'],
   ['Stéphane Caron', 'assets/images/organizers/stephane.jpg', 'Research scientist', 'Inria, France', 'https://scaron.info/'],
-  ['Keita Yoneda', 'assets/images/organizers/yoneda.jpg', 'PhD Student', 'The University of Tokyo, Japan', ''],
+  ['Keita Yoneda', 'assets/images/organizers/yoneda.jpg', 'PhD Student', 'The University of Tokyo, Japan', 'https://keitayoneda.github.io/'],
 ]
 
 const accepted_presentations = [
