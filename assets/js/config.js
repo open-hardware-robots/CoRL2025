@@ -29,7 +29,7 @@ const talk_speaker_details = {
   'ksw': ['Kenneth Shaw', './assets/images/talks/kenneth.jpg', 'PhD student', 'Carnegie Mellon University, USA', 'https://kennyshaw.net/', 
     'Open-Source LEAP Hand', 
 		''],
-  'qlo': ['Qiayuan Liao', './assets/images/talks/qiayuan.jpg', 'PhD student', 'UC Berkley, USA', 'https://scholar.google.com/citations?user=QGpxkvkAAAAJ&hl=en', 
+  'qlo': ['Qiayuan Liao', './assets/images/talks/qiayuan.jpg', 'PhD student', 'UC Berkley, USA', 'https://qiayuanl.github.io/', 
     'Barkeley Humanoid', 
     ''],
   'ape': ['Antoine Pirrone', './assets/images/talks/p-antoine.jpg', 'R&D Engineer', 'pollen Robotics & HuggingFace, France', 'https://scholar.google.com/citations?user=NtOzYVMAAAAJ&hl=en', 
