@@ -4,7 +4,7 @@ const conference_details = ['CoRL 2025', 'https://www.corl.org/', 'Seoul, Korea'
 const workshop_date = `9:30 - 16:30 KST, Septembar 27, 2025`
 
 const talk_speaker_details = {
-  'klu': ['C.Karen Liu', './assets/images/talks/karen.jpg', 'Professor', 'Stanford University, USA', 'https://profiles.stanford.edu/c-karen-liu', 
+  'klu': ['C. Karen Liu', './assets/images/talks/karen.jpg', 'Professor', 'Stanford University, USA', 'https://profiles.stanford.edu/c-karen-liu', 
     'Open-Source Humanoid Platform: ToddlerBot',
     ''],
   'gpt': ['Grégoire Passault', './assets/images/talks/gregoire.jpg', 'Associate Professor', 'University of Bordeaux, France', 'https://fr.linkedin.com/in/gr%C3%A9goire-passault-b14024140', 
