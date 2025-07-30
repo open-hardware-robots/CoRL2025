@@ -92,3 +92,15 @@ font-style: italic;
   height: 15rem !important; /*Set the same value as width to make it a square*/
   border-radius: 0% !important;
 }
+
+.notice-box {
+  background-color: #f8f9fa;
+  border-left: 4px solid #ffc107; /* 警告色のライン */
+  padding: 10px 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 0.95em;
+  color: #333;
+  border-radius: 4px;
+}
+
