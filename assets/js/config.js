@@ -4,7 +4,7 @@ const conference_details = ['CoRL 2025', 'https://www.corl.org/', 'Seoul, Korea'
 const workshop_date = `9:30 - 16:30 KST, Septembar 27, 2025`
 
 const talk_speaker_details = {
-  'klu': ['C.Karen Liu', './assets/images/talks/karen.jpg', 'Professor', 'Stanford University, USA', 'https://profiles.stanford.edu/c-karen-liu', 
+  'klu': ['C. Karen Liu', './assets/images/talks/karen.jpg', 'Professor', 'Stanford University, USA', 'https://profiles.stanford.edu/c-karen-liu', 
     'Open-Source Humanoid Platform: ToddlerBot',
     ''],
   'gpt': ['Grégoire Passault', './assets/images/talks/gregoire.jpg', 'Associate Professor', 'University of Bordeaux, France', 'https://fr.linkedin.com/in/gr%C3%A9goire-passault-b14024140', 
@@ -21,7 +21,7 @@ const talk_speaker_details = {
     ''],
 
   'arn': ['Antonin Raffin', './assets/images/talks/antonin.jpg', 'Research Engineer', 'DLR, Germany', 'https://araffin.github.io/', 
-    'Open-Source Quadruped: BERT', 
+    'Open-Source Project at DLR', 
     ''],
   'yna': ['Yuki Nakagawa', './assets/images/talks/nakagawa.jpg', 'CEO', 'RT Corporation, Japan', 'https://jp.linkedin.com/in/yuki-nakagawa-958b0b99', 
     'Open-Source in Industry', 
