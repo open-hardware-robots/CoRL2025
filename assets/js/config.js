@@ -10,7 +10,7 @@ const talk_speaker_details = {
   'gpt': ['Grégoire Passault', './assets/images/talks/gregoire.jpg', 'Associate Professor', 'University of Bordeaux, France', 'https://fr.linkedin.com/in/gr%C3%A9goire-passault-b14024140', 
     'Open-Source Humanoid: SigmaBan', 
     ''],
-  'toa': ['Tetusya Ogata', './assets/images/talks/ogata.jpg', 'Professor', 'Waseda University, Japan', 'https://ogata-lab.jp/member/ogata.html', 
+  'toa': ['Tetsuya Ogata', './assets/images/talks/ogata.jpg', 'Professor', 'Waseda University, Japan', 'https://ogata-lab.jp/member/ogata.html', 
     'Open-Source Dual-Arm Robot', 
     ''],
   'bcn': ['Boyuan Chen', './assets/images/talks/boyuan.jpg', 'Assistant Professor', 'Duke University, USA', 'https://mems.duke.edu/people/boyuan-chen/', 
