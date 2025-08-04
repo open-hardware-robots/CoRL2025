@@ -38,7 +38,7 @@ const talk_speaker_details = {
   "scn": ['Stéphane Caron', 'assets/images/organizers/stephane.jpg', 'Research scientist', 'Inria, Paris, France', 'https://scaron.info/',
 		"Overview of Open-Source Hardware for Robot Learning",
 		""],
-  "tfs": ['Thomas Flayols', 'assets/images/talks/thomas.jpg', 'Researcher', 'LAAS-CNRS , France', 'https://www.laas.fr/en/annuaire/299',
+  "tfs": ['Thomas Flayols', 'assets/images/talks/thomas.jpg', 'Research Engineer', 'LAAS-CNRS , France', 'https://www.laas.fr/en/annuaire/299',
 		"Open Dynamic Robot Initiative",
 		""],
   // 'tbd': ['TBD', '', '', '', '', 
