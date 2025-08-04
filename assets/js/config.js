@@ -23,7 +23,7 @@ const talk_speaker_details = {
   'arn': ['Antonin Raffin', './assets/images/talks/antonin.jpg', 'Research Engineer', 'DLR, Germany', 'https://araffin.github.io/', 
     'Open-Source Project at DLR', 
     ''],
-  'yna': ['Yuki Nakagawa', './assets/images/talks/nakagawa.jpg', 'CEO', 'RT Corporation, Japan', 'https://jp.linkedin.com/in/yuki-nakagawa-958b0b99', 
+  'yna': ['Yukiko Nakagawa', './assets/images/talks/nakagawa.jpg', 'CEO', 'RT Corporation, Japan', 'https://jp.linkedin.com/in/yuki-nakagawa-958b0b99', 
     'Open-Source in Industry', 
     ''],
   'ksw': ['Kenneth Shaw', './assets/images/talks/kenneth.jpg', 'PhD student', 'Carnegie Mellon University, USA', 'https://kennyshaw.net/', 
