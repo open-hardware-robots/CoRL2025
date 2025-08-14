@@ -1,7 +1,7 @@
 const project_name = `Open-Source Hardware in the Era of Robot Learning`
 const proj_small_caps = `<span class="small-caps"></span>`
 const conference_details = ['CoRL 2025', 'https://www.corl.org/', 'Seoul, Korea', 'assets/images/corl_logo_2025.png', 'https://www.beta-cae.com/events/c9pdf/science%20congress%20center-floor-plans.pdf']
-const workshop_date = `9:30 - 16:30 KST, Septembar 27, 2025`
+const workshop_date = `9:30 - 16:30 KST, September 27, 2025`
 
 const talk_speaker_details = {
   'klu': ['C. Karen Liu', './assets/images/talks/karen.jpg', 'Professor', 'Stanford University, USA', 'https://profiles.stanford.edu/c-karen-liu', 
