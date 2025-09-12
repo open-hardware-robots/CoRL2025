@@ -144,6 +144,7 @@ $(document).ready(function () {
 		
 		// speaker talk
     if (schedule_entry[0] == 'inv-talk'){
+			schedule_entry[2] = "" // not showing the words "Invited Talk" in the schedule
       speaker_details = talk_speaker_details[schedule_entry[3]]
       talk_mode = schedule_entry[4] == 'online' ? `<span class='has-text-danger bold'>[Online]</span>` : ``
       align_left = (speaker_details[5] != `` && speaker_details[6] != ``) ? "align-left" : ""
@@ -151,18 +152,19 @@ $(document).ready(function () {
       abstract = speaker_details[6] != `` ? `<p><span class="bold">Abstract.</span> ${speaker_details[6]}</p>` : `<p class="center">Details coming soon. Thanks for your patience.</p>`
       bio = speaker_details[7] != `` ? `<p><span class="bold">Bio.</span> ${speaker_details[7]}</p>` : ``
 
-			title_abstract_html = ` ${talk_mode}: <a href="${speaker_details[4]}" target="_blank">${speaker_details[0]}</a>, ${speaker_details[3]} (<span class='toggle-btn has-text-success'>Details</span>)`
+			title_abstract_html = ` ${talk_mode} <a href="${speaker_details[4]}" target="_blank">${speaker_details[0]}</a>, ${speaker_details[3]} (<span class='toggle-btn has-text-success'>Details</span>)`
       hidden_row_html = `<tr class="hidden-content ${align_left}"><td colspan="2">${title}${abstract}${bio}</td></tr>`
     }
 		// organizers_talk
     if (schedule_entry[0] == 'org-talk'){
+			schedule_entry[2] = "" // not showing the words "Organizer Talk" in the schedule
       speaker_details = organizers_talk_details[schedule_entry[3]]
       talk_mode = schedule_entry[4] == 'online' ? `<span class='has-text-danger bold'>[Online]</span>` : ``
       align_left = (speaker_details[5] != `` && speaker_details[6] != ``) ? "align-left" : ""
       title = speaker_details[5] != `` ? `<h5 class="center has-text-danger bold">${speaker_details[5]}</h5>` : ``
       abstract = speaker_details[6] != `` ? `<p><span class="bold">Abstract.</span> ${speaker_details[6]}</p>` : `<p class="center">Details coming soon. Thanks for your patience.</p>`
       bio = speaker_details[7] != `` ? `<p><span class="bold">Bio.</span> ${speaker_details[7]}</p>` : ``
-        title_abstract_html = ` ${talk_mode}: <a href="${speaker_details[4]}" target="_blank">${speaker_details[0]}</a>, ${speaker_details[3]} (<span class='toggle-btn has-text-danger'>Details</span>)`
+        title_abstract_html = ` ${talk_mode} <a href="${speaker_details[4]}" target="_blank">${speaker_details[0]}</a>, ${speaker_details[3]} (<span class='toggle-btn has-text-danger'>Details</span>)`
       	hidden_row_html = `<tr class="hidden-content ${align_left}"><td colspan="2">${title}${abstract}${bio}</td></tr>`
     }
 		// lunch-break & coffee-break
