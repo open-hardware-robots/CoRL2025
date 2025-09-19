@@ -104,3 +104,19 @@ font-style: italic;
   border-radius: 4px;
 }
 
+/* Workshop Location Section */
+#location {
+  margin-bottom: 10rem;
+}
+
+#location .subtitle {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+#location .location-map img {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  max-width: 100%;
+  height: auto;
+}
