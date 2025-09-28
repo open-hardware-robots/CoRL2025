@@ -55,8 +55,8 @@ const organizers_talk_details = {
     'MEVIUS Series: Open-Source Metal Robot Hardware, Easy to Assemble',
     'Currently, algorithms such as imitation learning, reinforcement learning, and foundation models are being released as open source, greatly supporting the advancement of science. This wave has also reached robotic hardware, with the community of open-source hardware steadily expanding. In this talk, I will introduce our open-source hardware developments: the metal quadruped robot MEVIUS, the bipedal robot MEVITA, and KLEIYN, a quadruped robot with a waist joint evolved from MEVIUS that is capable of chimney climbing. All of these robots can be built entirely from e-commerce components, with minimized part counts achieved through sheet-metal welding. Furthermore, we implement robust locomotion control on these platforms using reinforcement learning and sim-to-real transfer.', "Kento Kawaharazuka received his B.E. in Mechano-Informatics from The University of Tokyo in 2017. He received his M.S. in Information Science and Technology from The University of Tokyo in 2019, and his Ph.D. in the same field in 2022. In 2022, he was appointed as a Project Assistant Professor at the Graduate School of Information Science and Technology, The University of Tokyo. Since 2025, he has been serving as a Lecturer at the Next Generation Artificial Intelligence Research Center, Graduate School of Information Science and Technology, The University of Tokyo. His research interests include the body design and control of musculoskeletal humanoids, as well as intelligent robotic systems based on deep learning and foundation models. "],
   "scn": ['Stéphane Caron', 'assets/images/organizers/stephane.jpg', 'Research scientist', 'Inria, Paris, France', 'https://scaron.info/',
-	"Overview of Open-Source Hardware for Robot Learning",
-	"", ""],
+		"An Overview of Open-Source Hardware for Robot Learning",
+		'What makes a robot "open source"? Is it the license, the build instructions, the software? In this presentation, we will recall the principles in The Open Source Definition, originally written for software, and examine how it translates to open source robots and their associated datasets. We will take a look at different open-source and open-hardware robots that have been contributed by individuals, research labs and companies, highlighting their practices and impact on the scientific community. This will lead us to a collective inquiry: should scientists create open hardware for robot learning? And if so, for what intended purposes and benefits?', "Stéphane is a researcher in robotics. He received his M.Sc. in computer science from the École Normale Supérieure in 2012, and his Ph.D. in robotics from the University of Tokyo in 2016. Stéphane has done research on humanoid locomotion at CNRS and was locomotion team lead at ANYbotics AG before joining Inria, where he is currently interested in applications of machine learning to robotics, particularly at the interface of computer vision and motion control. Stéphane is a proponent of open source robotics and contributes to projects like Upkie wheeled bipeds, robot_descriptions.py and qpbenchmark."],
 }
 
 const organizers_details = [
@@ -75,9 +75,9 @@ const org_affiliation_logos = [
 // last two are for inv-talk event-alias entries
 const schedule = [
   ['welcome', '9:30 - 9:40', 'Welcome Talk'],
-  ['inv-talk', '9:40 - 10:00', 'Invited Talk', 'klu', 'in-person'],
+  ['inv-talk', '9:40 - 10:00', 'Invited Talk', 'toa', 'in-person'],
   ['inv-talk', '10:00 - 10:20', 'Invited Talk', 'qlo', 'in-person'],
-  ['inv-talk', '10:20 - 10:40', 'Invited Talk', 'toa', 'in-person'],
+  ['inv-talk', '10:20 - 10:40', 'Invited Talk', 'klu', 'in-person'],
   ['coffee-break', '10:40 - 11:10', 'Poster/Demo Session (1) and Coffee Break'],
   ['inv-talk', '11:10 - 11:30', 'Invited Talk', 'ape', 'in-person'],
   ['inv-talk', '11:30 - 11:50', 'Invited Talk', 'bcn', 'in-person'],
@@ -86,9 +86,9 @@ const schedule = [
   ['lunch-break', '12:30 - 13:30', 'Lunch Break', '', ''],
   ['inv-talk', '13:30 - 13:50', 'Invited Talk', 'ksw', 'in-person'],
   ['inv-talk', '13:50 - 14:10', 'Invited Talk', 'yna', 'in-person'],
-  ['inv-talk', '14:10 - 14:30', 'Invited Talk', 'gpt', 'in-person'],
-  ['coffee-break', '14:30 - 15:00', 'Poster/Demo Session (2) and Coffee Break'],
-  ['inv-talk', '15:00 - 15:20', 'Invited Talk', 'arn', 'in-person'],
+  ['inv-talk', '14:10 - 14:30', 'Invited Talk', 'arn', 'in-person'],
+  ['inv-talk', '14:30 - 14:50', 'Invited Talk', 'gpt', 'in-person'],
+  ['coffee-break', '14:50 - 15:20', 'Poster/Demo Session (2) and Coffee Break'],
   ['org-talk', '15:20 - 15:40', 'Organizer Talk', 'scn', 'in-person'],
   ['disc', '15:40 - 16:20', 'Panel Discussions'],
   ['award', '16:20 - 16:30', 'Award & Closing Remarks'],
